@@ -1,0 +1,3 @@
+aee148f6133b16166a72d8a912995a8e
+
+https://api.openweathermap.org/data/2.5/weather?lq={city}&units=metric&lang=pt_br&appid=${api_key}
