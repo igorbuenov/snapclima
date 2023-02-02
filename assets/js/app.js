@@ -49,7 +49,7 @@ navigator.geolocation.getCurrentPosition(
 )
 
 function getCurrentLocationWeather(lat, lon) {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=pt_br&apiid=${apiKey}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=pt_br&appid=${apiKey}`)
         .then((response) => response.json())
         .then((data) => displayWeather(data))
 }
